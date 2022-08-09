@@ -4,7 +4,17 @@ body {
 	background: radial-gradient(circle, #42860d 0%, #1d251c 100%);
 }
 
-body::after {
+a {
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+}
+
+  /* body::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -12,7 +22,7 @@ body::after {
 	width: 100vw;
 	height: 200vh;
 	background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
-}
+}   */
 
 h1, h2, p {
 	font-family: 'Mode Seven';
