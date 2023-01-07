@@ -59,7 +59,7 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font: 2.8rem Inconsolata, monospace;
+  font-family: Inconsolata, monospace;
 }
 
 .topnav a:hover {
